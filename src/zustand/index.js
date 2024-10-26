@@ -1,12 +1,7 @@
 import { create } from "zustand";
 import { persist, devtools } from "zustand/middleware";
 
-type Store = {
-  lang: string;
-  changeLang: (lang: string) => void;
-};
-
-const useStore = create<Store>()(
+const useStore = create()(
   devtools(
     persist(
       (set) => ({
