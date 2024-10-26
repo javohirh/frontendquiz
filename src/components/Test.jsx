@@ -126,62 +126,59 @@ function Test({ quizzes: { questions, title, icon, color } }) {
       <div className="test-questions">
         <form onSubmit={handleSubmit}>
           <ul className="test-list">
-            {currentQuestion.options[currentLanguage].map(
-              (item: string, i: number) => {
-                const alphabet = String.fromCharCode(65 + i);
-                let className = "";
+            {currentQuestion.options[currentLanguage].map((item, i) => {
+              const alphabet = String.fromCharCode(65 + i);
+              let className = "";
+              if (
+                state.answerStatus == "correct" &&
+                item == state.selectedAnswer
+              ) {
+                className = "correct";
+              } else if (state.answerStatus == "incorrect") {
+                if (item == state.selectedAnswer) {
+                  className = "incorrect";
+                }
                 if (
-                  state.answerStatus == "correct" &&
-                  item == state.selectedAnswer
+                  item == questions[state.questionIndex].answer[currentLanguage]
                 ) {
                   className = "correct";
-                } else if (state.answerStatus == "incorrect") {
-                  if (item == state.selectedAnswer) {
-                    className = "incorrect";
-                  }
-                  if (
-                    item ==
-                    questions[state.questionIndex].answer[currentLanguage]
-                  ) {
-                    className = "correct";
-                  }
                 }
-                return (
-                  <li key={i}>
-                    <label className={`test-label ${className}`}>
-                      <span className="test-letter">{alphabet}</span>
-                      <input
-                        onChange={(e) =>
-                          dispatch({
-                            type: "ANSWER_QUESTION",
-                            payload: item,
-                          })
-                        }
-                        type="radio"
-                        name="option"
-                        checked={state.selectedAnswer === item}
-                        disabled={state.statusDisabled}
-                      />
-                      <span className="test-text">{item}</span>
-                      <img
-                        className="test-icon-correct"
-                        src="../assets/icon-correct.svg"
-                        alt="icon"
-                        width={40}
-                        height={40}
-                      />
-                      <img
-                        className="test-icon-incorrect"
-                        src="../assets/icon-incorrect.svg"
-                        alt="icon"
-                        width={40}
-                        height={40}
-                      />
-                    </label>
-                  </li>
-                );
               }
-            )}
+              return (
+                <li key={i}>
+                  <label className={`test-label ${className}`}>
+                    <span className="test-letter">{alphabet}</span>
+                    <input
+                      onChange={(e) =>
+                        dispatch({
+                          type: "ANSWER_QUESTION",
+                          payload: item,
+                        })
+                      }
+                      type="radio"
+                      name="option"
+                      checked={state.selectedAnswer === item}
+                      disabled={state.statusDisabled}
+                    />
+                    <span className="test-text">{item}</span>
+                    <img
+                      className="test-icon-correct"
+                      src="../assets/icon-correct.svg"
+                      alt="icon"
+                      width={40}
+                      height={40}
+                    />
+                    <img
+                      className="test-icon-incorrect"
+                      src="../assets/icon-incorrect.svg"
+                      alt="icon"
+                      width={40}
+                      height={40}
+                    />
+                  </label>
+                </li>
+              );
+            })}
           </ul>
           {!state.showNextButton && (
             <button type="submit" className="btn test-btn">
