@@ -2,7 +2,7 @@ import React from "react";
 import quizData from "../../data/data.json";
 import { Link } from "react-router-dom";
 
-function MenuLinks(): React.ReactNode {
+function MenuLinks() {
   const questions = quizData.quizzes;
 
   return (

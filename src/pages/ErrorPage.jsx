@@ -3,7 +3,7 @@ import { Link, useRouteError } from "react-router-dom";
 function ErrorPage() {
   const error = useRouteError();
 
-  if (error!.status == 404) {
+  if (error.status == 404) {
     return (
       <div className="error-container container">
         <div>

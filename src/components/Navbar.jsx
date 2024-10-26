@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Flag from "react-world-flags";
 import useStore from "../zustand";
 import { Link, useParams } from "react-router-dom";
-const toggleTheme = (): string => {
+const toggleTheme = () => {
   return localStorage.getItem("darkMode") || "light";
 };
 function Navbar() {
@@ -19,7 +19,7 @@ function Navbar() {
     document.body.classList.add(theme);
     localStorage.setItem("darkMode", theme);
   }, [theme]);
-  const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+  const handleChange = (e) => {
     changeLang(e.target.value);
   };
 

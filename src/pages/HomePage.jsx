@@ -3,7 +3,7 @@ import MenuLinks from "../components/MenuLinks";
 import useStore from "../zustand";
 import detectLang from "../helpers/LangHelper";
 
-function HomePage(): React.ReactNode {
+function HomePage() {
   const { lang } = useStore();
   return (
     <section className="home-container container">
