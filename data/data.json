@@ -1,0 +1,981 @@
+{
+  "quizzes": [
+    {
+      "title": "HTML",
+      "color": "#FFF1E9",
+      "icon": "./assets/icon-html.svg",
+      "questions": [
+        {
+          "question": {
+            "en": "What does HTML stand for?",
+            "ru": "Что означает HTML?",
+            "uz": "HTML nimani anglatadi?"
+          },
+          "options": {
+            "en": [
+              "Hyper Trainer Marking Language",
+              "Hyper Text Marketing Language",
+              "Hyper Text Markup Language",
+              "Hyper Text Markup Leveler"
+            ],
+            "ru": [
+              "Язык гипертренировок",
+              "Язык гипертекстовой маркетинговой разметки",
+              "Язык гипертекстовой разметки",
+              "Уровень гипертекстовой разметки"
+            ],
+            "uz": [
+              "Gipermatn Belgilashning Tili",
+              "Gipermatn Marketing Tili",
+              "Gipermatn Belgilash Tili",
+              "Gipermatn Belgilash Darajasi"
+            ]
+          },
+          "answer": {
+            "en": "Hyper Text Markup Language",
+            "ru": "Язык гипертекстовой разметки",
+            "uz": "Gipermatn Belgilash Tili"
+          }
+        },
+        {
+          "question": {
+            "en": "Which of the following is the correct structure for an HTML document?",
+            "ru": "Какая из следующих структур является правильной для HTML-документа?",
+            "uz": "Quyidagi qaysi biri HTML hujjatining to‘g‘ri tuzilmasi?"
+          },
+          "options": {
+            "en": [
+              "<html><head></head><body></body></html>",
+              "<head><html></html><body></body></head>",
+              "<body><head></head><html></html></body>",
+              "<html><body></body><head></head></html>"
+            ],
+            "ru": [
+              "<html><head></head><body></body></html>",
+              "<head><html></html><body></body></head>",
+              "<body><head></head><html></html></body>",
+              "<html><body></body><head></head></html>"
+            ],
+            "uz": [
+              "<html><head></head><body></body></html>",
+              "<head><html></html><body></body></head>",
+              "<body><head></head><html></html></body>",
+              "<html><body></body><head></head></html>"
+            ]
+          },
+          "answer": {
+            "en": "<html><head></head><body></body></html>",
+            "ru": "<html><head></head><body></body></html>",
+            "uz": "<html><head></head><body></body></html>"
+          }
+        },
+        {
+          "question": {
+            "en": "Which HTML element is used to define the title of a document?",
+            "ru": "Какой элемент HTML используется для определения заголовка документа?",
+            "uz": "HTML hujjatining sarlavhasini aniqlash uchun qaysi element qo'llaniladi?"
+          },
+          "options": {
+            "en": ["<head>", "<title>", "<header>", "<top>"],
+            "ru": ["<head>", "<title>", "<header>", "<top>"],
+            "uz": ["<head>", "<title>", "<header>", "<top>"]
+          },
+          "answer": {
+            "en": "<title>",
+            "ru": "<title>",
+            "uz": "<title>"
+          }
+        },
+        {
+          "question": {
+            "en": "What is the purpose of the <body> tag in HTML?",
+            "ru": "Какова цель тега <body> в HTML?",
+            "uz": "HTMLda <body> tegining maqsadi nima?"
+          },
+          "options": {
+            "en": [
+              "It defines the document's head section.",
+              "It contains all the content such as text, images, and links.",
+              "It is used to define the main content of an HTML document.",
+              "It specifies the body of the email content in HTML."
+            ],
+            "ru": [
+              "Он определяет раздел заголовка документа.",
+              "Он содержит весь контент, такой как текст, изображения и ссылки.",
+              "Он используется для определения основного содержания HTML-документа.",
+              "Он указывает тело содержимого электронной почты в HTML."
+            ],
+            "uz": [
+              "Bu hujjatning bosh qismini belgilaydi.",
+              "Bu barcha kontentni, masalan, matn, rasmlar va havolalarni o'z ichiga oladi.",
+              "Bu HTML hujjatining asosiy mazmunini belgilash uchun ishlatiladi.",
+              "Bu HTMLda elektron pochta mazmunining tanasini ko'rsatadi."
+            ]
+          },
+          "answer": {
+            "en": "It contains all the content such as text, images, and links.",
+            "ru": "Он содержит весь контент, такой как текст, изображения и ссылки.",
+            "uz": "Bu barcha kontentni, masalan, matn, rasmlar va havolalarni o'z ichiga oladi."
+          }
+        },
+        {
+          "question": {
+            "en": "Which HTML tag is used to create a hyperlink?",
+            "ru": "Какой HTML-тег используется для создания гиперссылки?",
+            "uz": "Giperhavola yaratish uchun qaysi HTML tegidan foydalaniladi?"
+          },
+          "options": {
+            "en": ["<hyperlink>", "<link>", "<a>", "<href>"],
+            "ru": ["<hyperlink>", "<link>", "<a>", "<href>"],
+            "uz": ["<hyperlink>", "<link>", "<a>", "<href>"]
+          },
+          "answer": {
+            "en": "<a>",
+            "ru": "<a>",
+            "uz": "<a>"
+          }
+        },
+        {
+          "question": {
+            "en": "Which tag is used to display images in HTML?",
+            "ru": "Какой тег используется для отображения изображений в HTML?",
+            "uz": "HTMLda rasmni ko'rsatish uchun qaysi teg ishlatiladi?"
+          },
+          "options": {
+            "en": ["<img>", "<image>", "<src>", "<pic>"],
+            "ru": ["<img>", "<image>", "<src>", "<pic>"],
+            "uz": ["<img>", "<image>", "<src>", "<pic>"]
+          },
+          "answer": {
+            "en": "<img>",
+            "ru": "<img>",
+            "uz": "<img>"
+          }
+        },
+        {
+          "question": {
+            "en": "What attribute is used to provide the path of an image in the <img> tag?",
+            "ru": "Какой атрибут используется для указания пути к изображению в теге <img>?",
+            "uz": "<img> tegida rasm yo‘lini ko‘rsatish uchun qaysi atribut ishlatiladi?"
+          },
+          "options": {
+            "en": ["link", "src", "href", "url"],
+            "ru": ["link", "src", "href", "url"],
+            "uz": ["link", "src", "href", "url"]
+          },
+          "answer": {
+            "en": "src",
+            "ru": "src",
+            "uz": "src"
+          }
+        },
+        {
+          "question": {
+            "en": "Which HTML tag is used to create an unordered list?",
+            "ru": "Какой HTML-тег используется для создания неупорядоченного списка?",
+            "uz": "Tartibsiz ro‘yxat yaratish uchun qaysi HTML tegidan foydalaniladi?"
+          },
+          "options": {
+            "en": ["<ul>", "<ol>", "<list>", "<li>"],
+            "ru": ["<ul>", "<ol>", "<list>", "<li>"],
+            "uz": ["<ul>", "<ol>", "<list>", "<li>"]
+          },
+          "answer": {
+            "en": "<ul>",
+            "ru": "<ul>",
+            "uz": "<ul>"
+          }
+        },
+        {
+          "question": {
+            "en": "What does the <br> tag do?",
+            "ru": "Что делает тег <br>?",
+            "uz": "<br> tegi nima qiladi?"
+          },
+          "options": {
+            "en": [
+              "It breaks the text into two sections.",
+              "It creates a bold text.",
+              "It inserts a line break.",
+              "It adds a new row in a table."
+            ],
+            "ru": [
+              "Он разделяет текст на две части.",
+              "Он создает жирный текст.",
+              "Он вставляет разрыв строки.",
+              "Он добавляет новую строку в таблицу."
+            ],
+            "uz": [
+              "Bu matnni ikki qismga ajratadi.",
+              "Bu qalin matn yaratadi.",
+              "Bu satr bo'shlig'ini kiritadi.",
+              "Bu jadvalga yangi qator qo'shadi."
+            ]
+          },
+          "answer": {
+            "en": "It inserts a line break.",
+            "ru": "Он вставляет разрыв строки.",
+            "uz": "Bu satr bo'shlig'ini kiritadi"
+          }
+        }
+      ]
+    },
+    {
+      "title": "CSS",
+      "color": "#E0FDEF",
+      "icon": "./assets/icon-css.svg",
+      "questions": [
+        {
+          "question": {
+            "en": "What does CSS stand for?",
+            "ru": "Что означает CSS?",
+            "uz": "CSS nimani anglatadi?"
+          },
+          "options": {
+            "en": [
+              "Colorful Style Sheets",
+              "Computer Style Sheets",
+              "Cascading Style Sheets",
+              "Creative Style Sheets"
+            ],
+            "ru": [
+              "Цветные таблицы стилей",
+              "Компьютерные таблицы стилей",
+              "Каскадные таблицы стилей",
+              "Креативные таблицы стилей"
+            ],
+            "uz": [
+              "Rangli uslub sahifalari",
+              "Kompyuter uslub sahifalari",
+              "Kaskad uslub sahifalari",
+              "Yaratuvchan uslub sahifalari"
+            ]
+          },
+          "answer": {
+            "en": "Cascading Style Sheets",
+            "ru": "Каскадные таблицы стилей",
+            "uz": "Kaskad uslub sahifalari"
+          }
+        },
+        {
+          "question": {
+            "en": "Which HTML attribute is used to define inline styles?",
+            "ru": "Какой атрибут HTML используется для определения встроенных стилей?",
+            "uz": "Qaysi HTML atributi ichki uslublarni belgilash uchun ishlatiladi?"
+          },
+          "options": {
+            "en": ["styles", "style", "class", "font-style"],
+            "ru": ["styles", "style", "class", "font-style"],
+            "uz": ["styles", "style", "class", "font-style"]
+          },
+          "answer": {
+            "en": "style",
+            "ru": "style",
+            "uz": "style"
+          }
+        },
+        {
+          "question": {
+            "en": "How do you insert a comment in a CSS file?",
+            "ru": "Как вставить комментарий в файл CSS?",
+            "uz": "CSS fayliga izohni qanday qo'shasiz?"
+          },
+          "options": {
+            "en": [
+              "// this is a comment //",
+              "/* this is a comment */",
+              "-- this is a comment --",
+              "<!-- this is a comment -->"
+            ],
+            "ru": [
+              "// это комментарий //",
+              "/* это комментарий */",
+              "-- это комментарий --",
+              "<!-- это комментарий -->"
+            ],
+            "uz": [
+              "// bu izoh //",
+              "/* bu izoh */",
+              "-- bu izoh --",
+              "<!-- bu izoh -->"
+            ]
+          },
+          "answer": {
+            "en": "/* this is a comment */",
+            "ru": "/* это комментарий */",
+            "uz": "/* bu izoh */"
+          }
+        },
+        {
+          "question": {
+            "en": "Which property is used to change the background color of an element?",
+            "ru": "Какое свойство используется для изменения цвета фона элемента?",
+            "uz": "Elementning fon rangini o'zgartirish uchun qaysi xususiyat ishlatiladi?"
+          },
+          "options": {
+            "en": ["color", "bgcolor", "background-color", "background"],
+            "ru": ["color", "bgcolor", "background-color", "background"],
+            "uz": ["color", "bgcolor", "background-color", "background"]
+          },
+          "answer": {
+            "en": "background-color",
+            "ru": "background-color",
+            "uz": "background-color"
+          }
+        },
+        {
+          "question": {
+            "en": "How do you apply a style to all <p> elements?",
+            "ru": "Как применить стиль ко всем элементам <p>?",
+            "uz": "Barcha <p> elementlariga uslubni qanday qo'llaysiz?"
+          },
+          "options": {
+            "en": ["p { }", ".p { }", "#p { }", "all.p { }"],
+            "ru": ["p { }", ".p { }", "#p { }", "all.p { }"],
+            "uz": ["p { }", ".p { }", "#p { }", "all.p { }"]
+          },
+          "answer": {
+            "en": "p { }",
+            "ru": "p { }",
+            "uz": "p { }"
+          }
+        },
+        {
+          "question": {
+            "en": "Which property is used to change the font of an element?",
+            "ru": "Какое свойство используется для изменения шрифта элемента?",
+            "uz": "Element shriftini o'zgartirish uchun qaysi xususiyat ishlatiladi?"
+          },
+          "options": {
+            "en": ["font-style", "text-style", "font-family", "typeface"],
+            "ru": ["font-style", "text-style", "font-family", "typeface"],
+            "uz": ["font-style", "text-style", "font-family", "typeface"]
+          },
+          "answer": {
+            "en": "font-family",
+            "ru": "font-family",
+            "uz": "font-family"
+          }
+        },
+        {
+          "question": {
+            "en": "How do you make each word in a text start with a capital letter?",
+            "ru": "Как сделать так, чтобы каждое слово в тексте начиналось с заглавной буквы?",
+            "uz": "Matndagi har bir so'zni katta harf bilan qanday boshlaysiz?"
+          },
+          "options": {
+            "en": [
+              "text-transform: capitalize",
+              "text-transform: uppercase",
+              "text-style: capital",
+              "font-transform: capitalize"
+            ],
+            "ru": [
+              "text-transform: capitalize",
+              "text-transform: uppercase",
+              "text-style: capital",
+              "font-transform: capitalize"
+            ],
+            "uz": [
+              "text-transform: capitalize",
+              "text-transform: uppercase",
+              "text-style: capital",
+              "font-transform: capitalize"
+            ]
+          },
+          "answer": {
+            "en": "text-transform: capitalize",
+            "ru": "text-transform: capitalize",
+            "uz": "text-transform: capitalize"
+          }
+        },
+        {
+          "question": {
+            "en": "How do you select an element with the class name 'header'?",
+            "ru": "Как выбрать элемент с именем класса 'header'?",
+            "uz": "'header' sinf nomiga ega elementni qanday tanlaysiz?"
+          },
+          "options": {
+            "en": [".header", "#header", "header", "*header"],
+            "ru": [".header", "#header", "header", "*header"],
+            "uz": [".header", "#header", "header", "*header"]
+          },
+          "answer": {
+            "en": ".header",
+            "ru": ".header",
+            "uz": ".header"
+          }
+        },
+        {
+          "question": {
+            "en": "What is the default value of the 'position' property?",
+            "ru": "Какое значение по умолчанию у свойства 'position'?",
+            "uz": "'position' xususiyatining standart qiymati nima?"
+          },
+          "options": {
+            "en": ["relative", "fixed", "absolute", "static"],
+            "ru": ["relative", "fixed", "absolute", "static"],
+            "uz": ["relative", "fixed", "absolute", "static"]
+          },
+          "answer": {
+            "en": "static",
+            "ru": "static",
+            "uz": "static"
+          }
+        },
+        {
+          "question": {
+            "en": "What is the purpose of the z-index property in CSS?",
+            "ru": "Какова цель свойства z-index в CSS?",
+            "uz": "CSSda z-index xususiyatining maqsadi nima?"
+          },
+          "options": {
+            "en": [
+              "To count the number of elements",
+              "To set the magnification level of an element",
+              "To specify the stack order of an element",
+              "To create a zoom effect"
+            ],
+            "ru": [
+              "Чтобы подсчитать количество элементов",
+              "Чтобы установить уровень увеличения элемента",
+              "Чтобы указать порядок наложения элемента",
+              "Чтобы создать эффект увеличения"
+            ],
+            "uz": [
+              "Elementlar sonini hisoblash",
+              "Element kattalashtirish darajasini sozlash",
+              "Elementning qo'yilish tartibini belgilash",
+              "Kattalashtirish effektini yaratish"
+            ]
+          },
+          "answer": {
+            "en": "To specify the stack order of an element",
+            "ru": "Чтобы указать порядок наложения элемента",
+            "uz": "Elementning qo'yilish tartibini belgilash"
+          }
+        }
+      ]
+    },
+    {
+      "title": "JavaScript",
+      "color": "#EBF0FF",
+      "icon": "./assets/icon-javascript.svg",
+      "questions": [
+        {
+          "question": {
+            "en": "Which syntax is correct to output 'Hello World' in an alert box?",
+            "ru": "Какая синтаксическая конструкция верна для вывода 'Hello World' в окне оповещения?",
+            "uz": "Alert oynasida 'Hello World' ni chiqarish uchun qaysi sintaksis to'g'ri?"
+          },
+          "options": {
+            "en": [
+              "alertBox('Hello World');",
+              "msg('Hello World');",
+              "alert('Hello World');",
+              "msgBox('Hello World');"
+            ],
+            "ru": [
+              "alertBox('Hello World');",
+              "msg('Hello World');",
+              "alert('Hello World');",
+              "msgBox('Hello World');"
+            ],
+            "uz": [
+              "alertBox('Hello World');",
+              "msg('Hello World');",
+              "alert('Hello World');",
+              "msgBox('Hello World');"
+            ]
+          },
+          "answer": {
+            "en": "alert('Hello World');",
+            "ru": "alert('Hello World');",
+            "uz": "alert('Hello World');"
+          }
+        },
+        {
+          "question": {
+            "en": "How do you call a function named 'myFunction'?",
+            "ru": "Как вызвать функцию с именем 'myFunction'?",
+            "uz": "'myFunction' nomli funksiyani qanday chaqirasiz?"
+          },
+          "options": {
+            "en": [
+              "call function myFunction()",
+              "call myFunction()",
+              "myFunction()",
+              "execute myFunction()"
+            ],
+            "ru": [
+              "вызвать функцию myFunction()",
+              "вызвать myFunction()",
+              "myFunction()",
+              "выполнить myFunction()"
+            ],
+            "uz": [
+              "call function myFunction()",
+              "call myFunction()",
+              "myFunction()",
+              "execute myFunction()"
+            ]
+          },
+          "answer": {
+            "en": "myFunction()",
+            "ru": "myFunction()",
+            "uz": "myFunction()"
+          }
+        },
+        {
+          "question": {
+            "en": "How to write an IF statement in JavaScript?",
+            "ru": "Как записать оператор IF в JavaScript?",
+            "uz": "JavaScriptda IF operatorini qanday yozish kerak?"
+          },
+          "options": {
+            "en": ["if i = 5 then", "if (i == 5)", "if i == 5", "if i = 5"],
+            "ru": ["if i = 5 then", "if (i == 5)", "if i == 5", "if i = 5"],
+            "uz": ["if i = 5 then", "if (i == 5)", "if i == 5", "if i = 5"]
+          },
+          "answer": {
+            "en": "if (i == 5)",
+            "ru": "if (i == 5)",
+            "uz": "if (i == 5)"
+          }
+        },
+        {
+          "question": {
+            "en": "How to write an IF statement for executing some code if 'i' is NOT equal to 5?",
+            "ru": "Как записать оператор IF для выполнения кода, если 'i' НЕ равно 5?",
+            "uz": "'i' 5 ga teng bo'lmasa, kodni bajarish uchun IF operatorini qanday yozish kerak?"
+          },
+          "options": {
+            "en": [
+              "if (i <> 5)",
+              "if i =! 5 then",
+              "if (i != 5)",
+              "if i not = 5"
+            ],
+            "ru": [
+              "if (i <> 5)",
+              "if i =! 5 then",
+              "if (i != 5)",
+              "if i not = 5"
+            ],
+            "uz": [
+              "if (i <> 5)",
+              "if i =! 5 then",
+              "if (i != 5)",
+              "if i not = 5"
+            ]
+          },
+          "answer": {
+            "en": "if (i != 5)",
+            "ru": "if (i != 5)",
+            "uz": "if (i != 5)"
+          }
+        },
+        {
+          "question": {
+            "en": "How does a FOR loop start?",
+            "ru": "Как начинается цикл FOR?",
+            "uz": "FOR sikli qanday boshlanadi?"
+          },
+          "options": {
+            "en": [
+              "for (i = 0; i <= 5)",
+              "for i = 1 to 5",
+              "for (i <= 5; i++)",
+              "for (i = 0; i <= 5; i++)"
+            ],
+            "ru": [
+              "for (i = 0; i <= 5)",
+              "for i = 1 to 5",
+              "for (i <= 5; i++)",
+              "for (i = 0; i <= 5; i++)"
+            ],
+            "uz": [
+              "for (i = 0; i <= 5)",
+              "for i = 1 to 5",
+              "for (i <= 5; i++)",
+              "for (i = 0; i <= 5; i++)"
+            ]
+          },
+          "answer": {
+            "en": "for (i = 0; i <= 5; i++)",
+            "ru": "for (i = 0; i <= 5; i++)",
+            "uz": "for (i = 0; i <= 5; i++)"
+          }
+        },
+        {
+          "question": {
+            "en": "How can you add a single-line comment in JavaScript?",
+            "ru": "Как добавить однострочный комментарий в JavaScript?",
+            "uz": "JavaScriptda bir qatorlik izohni qanday qo'shish mumkin?"
+          },
+          "options": {
+            "en": [
+              "'This is a single-line comment",
+              "//This is a single-line comment",
+              "<!--This is a single-line comment-->",
+              "/* This is a single-line comment */"
+            ],
+            "ru": [
+              "'Это однострочный комментарий",
+              "//Это однострочный комментарий",
+              "<!--Это однострочный комментарий-->",
+              "/* Это однострочный комментарий */"
+            ],
+            "uz": [
+              "'Bu bir qatorlik izoh",
+              "//Bu bir qatorlik izoh",
+              "<!--Bu bir qatorlik izoh-->",
+              "/* Bu bir qatorlik izoh */"
+            ]
+          },
+          "answer": {
+            "en": "//This is a single-line comment",
+            "ru": "//Это однострочный комментарий",
+            "uz": "//Bu bir qatorlik izoh"
+          }
+        },
+        {
+          "question": {
+            "en": "What is the correct way to write a JavaScript array?",
+            "ru": "Как правильно записать массив в JavaScript?",
+            "uz": "JavaScript massivini to'g'ri yozishning usuli qanday?"
+          },
+          "options": {
+            "en": [
+              "var colors = (1:'red', 2:'green', 3:'blue')",
+              "var colors = ['red', 'green', 'blue']",
+              "var colors = 'red', 'green', 'blue'",
+              "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')"
+            ],
+            "ru": [
+              "var colors = (1:'красный', 2:'зеленый', 3:'синий')",
+              "var colors = ['красный', 'зеленый', 'синий']",
+              "var colors = 'красный', 'зеленый', 'синий'",
+              "var colors = 1 = ('красный'), 2 = ('зеленый'), 3 = ('синий')"
+            ],
+            "uz": [
+              "var colors = (1:'qizil', 2:'yashil', 3:'ko'k')",
+              "var colors = ['qizil', 'yashil', 'ko'k']",
+              "var colors = 'qizil', 'yashil', 'ko'k'",
+              "var colors = 1 = ('qizil'), 2 = ('yashil'), 3 = ('ko'k')"
+            ]
+          },
+          "answer": {
+            "en": "var colors = ['red', 'green', 'blue']",
+            "ru": "var colors = ['красный', 'зеленый', 'синий']",
+            "uz": "var colors = ['qizil', 'yashil', 'ko'k']"
+          }
+        },
+        {
+          "question": {
+            "en": "How do you find the number with the highest value of x and y?",
+            "ru": "Как найти число с наибольшим значением между x и y?",
+            "uz": "x va y ning eng katta qiymatini qanday topish mumkin?"
+          },
+          "options": {
+            "en": [
+              "Math.ceil(x, y)",
+              "top(x, y)",
+              "Math.max(x, y)",
+              "Math.highest(x, y)"
+            ],
+            "ru": [
+              "Math.ceil(x, y)",
+              "top(x, y)",
+              "Math.max(x, y)",
+              "Math.highest(x, y)"
+            ],
+            "uz": [
+              "Math.ceil(x, y)",
+              "top(x, y)",
+              "Math.max(x, y)",
+              "Math.highest(x, y)"
+            ]
+          },
+          "answer": {
+            "en": "Math.max(x, y)",
+            "ru": "Math.max(x, y)",
+            "uz": "Math.max(x, y)"
+          }
+        },
+        {
+          "question": {
+            "en": "Which operator is used to assign a value to a variable?",
+            "ru": "Какой оператор используется для присвоения значения переменной?",
+            "uz": "O'zgaruvchiga qiymat berish uchun qaysi operator ishlatiladi?"
+          },
+          "options": {
+            "en": ["-", "*", "=", "x"],
+            "ru": ["-", "*", "=", "x"],
+            "uz": ["-", "*", "=", "x"]
+          },
+          "answer": {
+            "en": "=",
+            "ru": "=",
+            "uz": "="
+          }
+        },
+        {
+          "question": {
+            "en": "What is the correct way to write a JavaScript object?",
+            "ru": "Как правильно записать объект в JavaScript?",
+            "uz": "JavaScript obyektini to'g'ri yozishning usuli qanday?"
+          },
+          "options": {
+            "en": [
+              "var person = {firstName: 'John', lastName: 'Doe'};",
+              "var person = {firstName = 'John', lastName = 'Doe'};",
+              "var person = (firstName: 'John', lastName: 'Doe');",
+              "var person = (firstName = 'John', lastName = 'Doe');"
+            ],
+            "ru": [
+              "var person = {firstName: 'Джон', lastName: 'Доу'};",
+              "var person = {firstName = 'Джон', lastName = 'Доу'};",
+              "var person = (firstName: 'Джон', lastName: 'Доу');",
+              "var person = (firstName = 'Джон', lastName = 'Доу');"
+            ],
+            "uz": [
+              "var person = {firstName: 'Jon', lastName: 'Do'};",
+              "var person = {firstName = 'Jon', lastName = 'Do'};",
+              "var person = (firstName: 'Jon', lastName: 'Do');",
+              "var person = (firstName = 'Jon', lastName = 'Do');"
+            ]
+          },
+          "answer": {
+            "en": "var person = {firstName: 'John', lastName: 'Doe'};",
+            "ru": "var person = {firstName: 'Джон', lastName: 'Доу'};",
+            "uz": "var person = {firstName: 'Jon', lastName: 'Do'};"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Accessibility",
+      "color": "#F6E7FF",
+      "icon": "./assets/icon-accessibility.svg",
+      "questions": [
+        {
+          "question": {
+            "en": "What does 'WCAG' stand for?",
+            "ru": "Что означает 'WCAG'?",
+            "uz": "'WCAG' nimani anglatadi?"
+          },
+          "options": {
+            "en": [
+              "Web Content Accessibility Guidelines",
+              "Web Compliance Accessibility Guide",
+              "Web Content Accessibility Goals",
+              "Website Compliance and Accessibility Guidelines"
+            ],
+            "ru": [
+              "Руководство по доступности веб-контента",
+              "Руководство по соблюдению доступности в Интернете",
+              "Цели доступности веб-контента",
+              "Руководство по соблюдению доступности веб-сайтов"
+            ],
+            "uz": [
+              "Veb-kontentning kirish imkoniyatlari bo'yicha qo'llanma",
+              "Veb-muvofiqlik va kirish imkoniyatlari bo'yicha qo'llanma",
+              "Veb-kontent kirish imkoniyatlari maqsadlari",
+              "Veb-sayt muvofiqligi va kirish imkoniyatlari qo'llanmasi"
+            ]
+          },
+          "answer": {
+            "en": "Web Content Accessibility Guidelines",
+            "ru": "Руководство по доступности веб-контента",
+            "uz": "Veb-kontentning kirish imkoniyatlari bo'yicha qo'llanma"
+          }
+        },
+        {
+          "question": {
+            "en": "Which element is used to provide alternative text for images for screen reader users?",
+            "ru": "Какой элемент используется для предоставления альтернативного текста для изображений для пользователей экранного диктора?",
+            "uz": "Ekran o'quvchi foydalanuvchilari uchun rasmlarga alternativa matn berish uchun qaysi element ishlatiladi?"
+          },
+          "options": {
+            "en": [
+              "<alt>",
+              "<figcaption>",
+              "<description>",
+              "<img alt='description'>"
+            ],
+            "ru": [
+              "<alt>",
+              "<figcaption>",
+              "<description>",
+              "<img alt='описание'>"
+            ],
+            "uz": [
+              "<alt>",
+              "<figcaption>",
+              "<description>",
+              "<img alt='ta'rif'>"
+            ]
+          },
+          "answer": {
+            "en": "<img alt='description'>",
+            "ru": "<img alt='описание'>",
+            "uz": "<img alt='ta'rif'>"
+          }
+        },
+        {
+          "question": {
+            "en": "What does ARIA stand for in web development?",
+            "ru": "Что означает ARIA в веб-разработке?",
+            "uz": "Veb-ishlab chiqishda ARIA nimani anglatadi?"
+          },
+          "options": {
+            "en": [
+              "Accessible Rich Internet Applications",
+              "Advanced Responsive Internet Assistance",
+              "Accessible Responsive Internet Applications",
+              "Automated Responsive Internet Actions"
+            ],
+            "ru": [
+              "Доступные богатые интернет-приложения",
+              "Расширенная отзывчивая интернет-помощь",
+              "Доступные адаптивные интернет-приложения",
+              "Автоматизированные отзывчивые интернет-действия"
+            ],
+            "uz": [
+              "Kirish imkoniyatiga ega boy internet ilovalari",
+              "Kengaytirilgan javobli internet yordam",
+              "Kirish imkoniyatiga ega javobli internet ilovalari",
+              "Avtomatlashtirilgan javobli internet harakatlari"
+            ]
+          },
+          "answer": {
+            "en": "Accessible Rich Internet Applications",
+            "ru": "Доступные богатые интернет-приложения",
+            "uz": "Kirish imkoniyatiga ega boy internet ilovalari"
+          }
+        },
+        {
+          "question": {
+            "en": "Which of the following is not a principle of the WCAG?",
+            "ru": "Какой из следующих пунктов не является принципом WCAG?",
+            "uz": "Quyidagilardan qaysi biri WCAG tamoyili emas?"
+          },
+          "options": {
+            "en": ["Perceivable", "Dependable", "Operable", "Understandable"],
+            "ru": [
+              "Воспринимаемость",
+              "Надежность",
+              "Управляемость",
+              "Понятность"
+            ],
+            "uz": [
+              "Idrok etiladigan",
+              "Ishonchli",
+              "Boshqariladigan",
+              "Tushunarli"
+            ]
+          },
+          "answer": {
+            "en": "Dependable",
+            "ru": "Надежность",
+            "uz": "Ishonchli"
+          }
+        },
+        {
+          "question": {
+            "en": "Which of these color contrast ratios defines the minimum WCAG 2.1 Level AA requirement for normal text?",
+            "ru": "Какое из этих соотношений контраста цвета определяет минимальные требования WCAG 2.1 уровня AA для обычного текста?",
+            "uz": "Oddiy matn uchun WCAG 2.1 darajasi AA minimal talabini qaysi rang kontrasti nisbatida belgilaydi?"
+          },
+          "options": {
+            "en": ["3:1", "4.5:1", "7:1", "2:1"],
+            "ru": ["3:1", "4.5:1", "7:1", "2:1"],
+            "uz": ["3:1", "4.5:1", "7:1", "2:1"]
+          },
+          "answer": {
+            "en": "4.5:1",
+            "ru": "4.5:1",
+            "uz": "4.5:1"
+          }
+        },
+        {
+          "question": {
+            "en": "Which of the following elements is inherently focusable, meaning it can receive focus without a 'tabindex' attribute?",
+            "ru": "Какой из следующих элементов по своей природе является фокусируемым, то есть может получать фокус без атрибута 'tabindex'?",
+            "uz": "Quyidagi elementlardan qaysi biri tabiatan fokuslanadigan, ya'ni 'tabindex' atributisiz fokus olishi mumkin?"
+          },
+          "options": {
+            "en": ["<div>", "<span>", "<a href='...'>", "<p>"],
+            "ru": ["<div>", "<span>", "<a href='...'>", "<p>"],
+            "uz": ["<div>", "<span>", "<a href='...'>", "<p>"]
+          },
+          "answer": {
+            "en": "<a href='...'>",
+            "ru": "<a href='...'>",
+            "uz": "<a href='...'>"
+          }
+        },
+        {
+          "question": {
+            "en": "What is the purpose of the 'lang' attribute in an HTML page?",
+            "ru": "Какова цель атрибута 'lang' на HTML-странице?",
+            "uz": "HTML sahifasida 'lang' atributining maqsadi nima?"
+          },
+          "options": {
+            "en": [
+              "To specify the scripting language",
+              "To define the character set",
+              "To indicate the language of the page content",
+              "To declare a language pack"
+            ],
+            "ru": [
+              "Для указания языка сценария",
+              "Для определения набора символов",
+              "Для указания языка содержимого страницы",
+              "Для объявления языкового пакета"
+            ],
+            "uz": [
+              "Skript tilini aniqlash uchun",
+              "Belgilar to'plamini belgilash uchun",
+              "Sahifa tarkibining tilini ko'rsatish uchun",
+              "Til to'plamini e'lon qilish uchun"
+            ]
+          },
+          "answer": {
+            "en": "To indicate the language of the page content",
+            "ru": "Для указания языка содержимого страницы",
+            "uz": "Sahifa tarkibining tilini ko'rsatish uchun"
+          }
+        },
+        {
+          "question": {
+            "en": "Which guideline ensures that content is accessible by keyboard as well as by mouse?",
+            "ru": "Какое руководство обеспечивает доступ к контенту как с помощью клавиатуры, так и с помощью мыши?",
+            "uz": "Qaysi qo'llanma mazmunni klaviatura orqali ham, sichqoncha orqali ham kirish mumkinligini ta'minlaydi?"
+          },
+          "options": {
+            "en": [
+              "Keyboard Accessible",
+              "Mouse Independence",
+              "Device Independence",
+              "Operable Controls"
+            ],
+            "ru": [
+              "Доступность с клавиатуры",
+              "Независимость от мыши",
+              "Независимость от устройства",
+              "Управляемые элементы"
+            ],
+            "uz": [
+              "Klaviatura orqali kirish mumkin",
+              "Sichqoncha mustaqilligi",
+              "Qurilma mustaqilligi",
+              "Boshqariladigan elementlar"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
